@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Тренировочная неделя</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="sidebar training-days">
+			<div class="profile">
+				<div class="profile-photo"></div>
+				<div class="nick-name">Ansar</div>
+				<div class="full-name">Jiddah, SA</div>
+			</div>
+			<nav class="inner-nav">
+				<!--<h2 class="inner-title">Заголовок</h2>-->
+				<ul>
+					<li class="inner-item-value" id="inner-checklist">
+						<a class="" href="programms-list.html">Программы</a>
+					</li>
+					<li><a href="periods-list.html">Периоды</a></li>
+					<li class="inner-item-value" id="inner-documents"><a href="week.html">Неделя</a></li>
+					<li>Календарь</li>
+					<li>Статистика</li>
+					<li>Питание</li>
+					<li>Спортпит</li>
+					<li>Фармакология</li>
+				</ul>
+			</nav>
+			<div class="training-days__list">
+				<div class="training-days__item">День 1</div>
+				<div class="training-days__item">День жим</div>
+				<div class="training-days__item">День нытья</div>
+			</div>
+		</div>
+		<div class="content">
+			<header class="content__header header">
+
+			</header>
+			<div class="content__page">
+				<article class="content__main week">
+					<header class="content__title">Создание тренировочной недели</header>
+
+
+
+					<div class="week__list">
+						<div class="week__item week__item--hover">
+							<button class="week_btn"></button>
+						</div>
+						<div class="week__item">
+							<button class="week_btn"></button>
+						</div>
+						<div class="week__item">
+							<button class="week_btn"></button>
+						</div>
+						<div class="week__item">
+							<button class="week_btn"></button>
+						</div>
+						<div class="week__item" id="week-item-5">
+							<button class="week_btn"></button>
+							<div class="week__popup">
+								<div class="week__day">День нытья</div>
+								<div class="week__day">День жим</div>
+								<div class="week__day">День c очень длинным названием</div>
+							</div>
+						</div>
+						<div class="week__item">
+							<button class="week_btn"></button>
+						</div>
+						<div class="week__item">
+							<button class="week_btn"></button>
+						</div>
+					</div>
+
+				</article>
+			</div>
+		</div>
+	</div>
+	<template id="popup-template">
+		<div class="week__popup">
+			<div class="week__day"></div>
+
+		</div>
+	</template>
+	<script src="js/util.js"></script>
+	<script src="js/week.js"></script>
+	<script src="js/navigation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Регистрация</title>
+
+</head>
+<body>
+<div class="sing-background">
+	<div class="sing-in sign-up">
+		<img class="sign-up-logo" src="./img/logo.png" alt="logo">
+		<form class="sing-form sing-up-form" action="">
+			<div>
+					<span><i class="fa fa-envelope" aria-hidden="true"></i>
+					</span>
+				<input class="sing-form-input" type="email" name="login-email" id="login-email" placeholder="Email" required="">
+			</div>
+
+			<div class="sign-pass-wrap">
+						<span><i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+				<input class="sing-form-input sing-password" type="password" name="password" placeholder="Password" minlength="6" required="">
+				<div class="sing-tooltip-pass sing-tooltip-pass--hidden">Пароли  не совпадают. Пожалуйста, проверьте  идентичность паролей в обоих полях</div>
+			</div>
+			<div class="registration-pass">
+						<span><i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+				<input class="sing-form-input sing-confirm" type="password" name="password" placeholder="Confirm Password" minlength="6" required="">
+			</div>
+
+			<div class="sign-btn-wrap">
+				<button class="sign-btn" type="submit">Регистрация</button>
+			</div>
+		</form>
+	</div>
+
+</div>
+<script src="js/validation.js"></script>
+</body>
+</html>
